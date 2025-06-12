@@ -6,12 +6,7 @@ body {
   max-width: 900px;
   margin: 40px auto;
   padding: 0 20px;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-.dark-mode {
-  background-color: #121212;
-  color: #f1f1f1;
+  
 }
 
 h1, h2 {
@@ -147,10 +142,7 @@ ul {
   border-bottom: 1px solid #ccc;
 }
 
-.dark-mode .navbar {
-  background: #1e1e1e;
-  border-color: #444;
-}
+
 
 .navbar ul {
   display: flex;
@@ -191,9 +183,7 @@ ul {
   z-index: 200;
 }
 
-.dark-mode #backToTop {
-  background: #444;
-}
+
 
 @media screen and (max-width: 600px) {
   .intro-section {
